@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <limk rel='stylesheet' href='styles.css'>
+        <title>survey-form.freecodecamp.rocks/</title>
+</head>
+
+<body>
+    <h1 id='title'>freeCodeCamp Survey Form</h1>
+    <p id='description'>Thank you for taking the time to help us improve the platform</p>
+    <form id='survey-form'>
+        <label id='name-label' for='name'>
+            <input required id='name' type='text' placeholder='Enter your name'>
+        </label>
+
+        <label id='email-label' for='email'>
+            <input required id='email' type='email' placeholder='Enter your Email'>
+        </label>
+
+        <label id='number-label' for='number'>
+            <input id='number' type='number' placeholder='Age' min='18' max='70'>
+        </label>
+
+        <select id='dropdown'>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+        </select>
+
+        <label> <input type='radio' name='recommend' value='definitely'>Definitely </label>
+        <label> <input type='radio' name='recommend' value='maybe'>Maybe </label>
+        <label> <input type='radio' name='recommend' value='not sure'>Not sure </label>
+
+        <select id='dropdown'>
+            <input type='checkbox' value='challengers'>Challengrs</input>
+            <input type='checkbox' value='projects'>Projects</input>
+            <input type='checkbox' value='community'>Community</input>
+            <input type='checkbox' value='open sourse'>Open Sourse</input>
+        </select>
+
+        <textarea>For Additional comments</textarea>
+
+        <button id='submit' type='submit'>Submit</button>
+    </form>
+
+</body>
+
+</html>
